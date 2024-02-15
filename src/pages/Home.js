@@ -5,7 +5,7 @@ export default function Home(){
     return(
         <div className="homepagewrap">
             <div className="homepage">
-                <video autoPlay muted loop id="myVideo" poster={`${process.env.PUBLIC_URL}/assets/Skärmklipp.PNG`}>
+                <video autoPlay muted loop playsInline id="myVideo" poster={`${process.env.PUBLIC_URL}/assets/Skärmklipp.PNG`}>
                 <source src={`${process.env.PUBLIC_URL}/assets/video2.mp4`} type="video/mp4"></source>
                 </video>
                     <div className="text">
