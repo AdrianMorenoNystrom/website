@@ -1,0 +1,30 @@
+{
+    "jobb": [
+      {
+        "period": "2021-08 - 2023-08",
+        "titel": "Maskinoperatör",
+        "arbetsplats": "Edsbyverken, Edsbyn",
+        "beskrivning": "Maskinoperatör på en produktionslina med 5 arbetsstationer. Ingick i ett team på 4 personer där kommunikation och lagarbete var viktigt. Ansvarade för kvalitet och service på maskiner och robotar. Erhöll mig mycket kunskap om tillverkande industri, produktionssystem samt affärssystem."
+      },
+      {
+        "period": "2019 - 2021",
+        "titel": "Butiksbiträde",
+        "arbetsplats": "Hemköp, Alfta",
+        "beskrivning": "Ansvar för att säkerställa en smidig kundupplevelse inom detaljhandeln. Uppgifter inkluderade kassahantering, kundservice, varuhantering och städning. Krävde serviceinriktad inställning, god kommunikationsförmåga och noggrannhet med detaljer. Trivdes med att arbeta i team och hantera olika arbetsuppgifter samtidigt."
+      }
+    ],
+    "utbildning": [
+      {
+        "period": "2023-08 - 2025-04",
+        "utbildning": "Edugrade, Hudiksvall",
+        "beskrivning": "Utbildningens syfte är att jag som elev efter examen ska kunna skapa program och applikationer med hjälp av .NET-teknologier. Kompetens inom användningen av AI-verktyg och algoritmer för att skapa intelligenta och datadrivna lösningar. Bred kunskapsbas och praktisk erfarenhet för att arbeta inom områden som applikationsutveckling, maskininlärning och AI-baserad systemutveckling.",
+        "program": "Systemutvecklare.Net med AI-kompetens"
+      },
+      {
+        "period": "2018 - 2021",
+        "utbildning": "Voxnadalens gymnasium, Edsbyn",
+        "program": "Teknikprogrammet Informations och Medieteknik."
+      }
+    ]
+  }
+  
