@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reactovning0212/static/css/main.40dbe518.css",
+    "main.js": "/reactovning0212/static/js/main.5472e9c5.js",
+    "static/js/592.379d8f56.chunk.js": "/reactovning0212/static/js/592.379d8f56.chunk.js",
+    "index.html": "/reactovning0212/index.html",
+    "main.40dbe518.css.map": "/reactovning0212/static/css/main.40dbe518.css.map",
+    "main.5472e9c5.js.map": "/reactovning0212/static/js/main.5472e9c5.js.map",
+    "592.379d8f56.chunk.js.map": "/reactovning0212/static/js/592.379d8f56.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40dbe518.css",
+    "static/js/main.5472e9c5.js"
+  ]
+}
