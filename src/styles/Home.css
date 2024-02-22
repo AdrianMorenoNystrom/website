@@ -72,6 +72,25 @@ img {
     }
 
     .homepage h1{
-        font-size: 4rem;
+        font-size: 3rem;
+    }
+
+    .homepage h2{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .row{
+        flex-direction: column;
+        min-width: 80%;
+    }
+
+    .homepage h1{
+        font-size: 3rem;
+    }
+
+    .homepage h2{
+        font-size: 1rem;
     }
 }

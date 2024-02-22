@@ -25,6 +25,26 @@
         "utbildning": "Voxnadalens gymnasium, Edsbyn",
         "program": "Teknikprogrammet Informations och Medieteknik."
       }
+    ],
+    "info1":[
+      {
+        "maskinoperator":"Maskinoperatör på en produktionslina med 5 arbetsstationer. Jag ingick i ett team på 4 personer där kommunikation och lagarbete var viktigt. Jag ansvarade för kvalitet och service på maskiner och robotar. Erhöll mig mycket kunskap om tillverkande industri,produktionssystem samt affärssystem."
+      }
+    ],
+    "info2":[
+      {
+        "butiksbitrade":"Som butiksbiträde hade jag ansvar för att säkerställa en smidig kundupplevelse inom detaljhandeln. Jag utförde uppgifter som kassahantering, kundservice, varuhantering och städning. Min roll krävde att jag var serviceinriktad, har god kommunikationsförmåga och var noggrann med detaljer. Jag trivdes med att arbeta i team och hantera olika arbetsuppgifter samtidigt."
+      }
+    ],
+    "info3":[
+      {
+        "systemutveckling":"Utbildningens syfte är att jag som elev efter examen ska kunna skapa program och applikationer med hjälp av .NET-teknologier. Jag får även kompetens inom användningen av AI-verktyg och algoritmer för att skapa intelligenta och datadrivna lösningar. Programmet ger en bred kunskapsbas och praktisk erfarenhet för att arbeta inom områden som applikationsutveckling, maskininlärning och AI-baserad systemutveckling."
+      }
+    ],
+    "info4":[
+      {
+        "teknikprogrammet":"Teknikprogrammet med inriktning på informations- och medieteknik är en gymnasial utbildning som fokuserar på teknik, datavetenskap och medieproduktion. Under programmet lärde jag mig grunderna inom datateknik, webbutveckling, digital grafik, och multimedia. Jag fick också kunskap om hur man skapar och hanterar digitala medier, inklusive text, bild och ljud."
+      }
     ]
   }
   

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import {NavLink } from "react-router-dom";
 import "./Menu.css"
 
 
@@ -12,30 +12,29 @@ const Menu=()=>{
             <div className='menu-container'>
                 <ul className='nav-links'>
                     <li>
-                        {/* navlink kan användas också * https://www.linkedin.com/pulse/what-difference-between-link-navlink-react-router-avner-mushnik */}
-                        <Link to='/' className="nav-link">
-                            Hem
-                        </Link>
+                    <NavLink to='/' className={({isActive})=>isActive ? "active" :""}>
+                        Hem
+                    </NavLink>
                     </li>
                     <li>
-                        <Link to='/about' className="nav-link">
-                            Om mig
-                        </Link>
+                    <NavLink to='/About' className={({isActive})=>isActive ? "active" :""}>
+                        Om mig
+                    </NavLink>
                     </li>
                     <li>
-                        <Link to='/Portfolio' className="nav-link">
-                            Portfolio
-                        </Link>
+                    <NavLink to='/Portfolio' className={({isActive})=>isActive ? "active" :""}>
+                        Portfolio
+                    </NavLink>
                     </li>
                     <li>
-                        <Link to='/Cv' className="nav-link">
-                            CV
-                        </Link>
+                    <NavLink to='/Cv' className={({isActive})=>isActive ? "active" :""}>
+                        CV
+                    </NavLink>
                     </li>
                     <li>
-                        <Link to='/Contact' className="nav-link">
-                            Kontakt
-                        </Link>
+                    <NavLink to='/Contact' className={({isActive})=>isActive ? "active" :""}>
+                        Kontakt
+                    </NavLink>
                     </li>
                 </ul>
             </div>

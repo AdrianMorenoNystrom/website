@@ -5,7 +5,7 @@
 
 
 .utbildning{
-    margin-top: 8%;
+    margin-top: 3%;
 }
 
 .tables{
@@ -19,7 +19,7 @@ table {
   
   td,th {
     padding: 8px;
-    border-bottom: 1px solid #00A6ED; 
+    border-bottom: 2px solid black; 
   }
   
 
@@ -29,9 +29,39 @@ table {
     font-size: 200%;
   }
 
-  
+
+.button{
+  cursor: pointer;
+  border: 2px solid black;
+  margin: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.button:hover{
+  background-color: #00a6ed;
+}
+
+
   @media only screen and (max-width: 800px){
     .cv h1{
         font-size: 150%;
     }
   }
+
+
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: 0;
+  top: 0;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+}
+.modal > .close:hover {
+  background: rgb(248, 93, 93);
+}

@@ -1,0 +1,44 @@
+.maincontent h1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px){
+    .maincontent h1{
+        font-size: 2rem;
+    }
+  }
+.control :where(input, select, textarea) {
+    border: 0;
+    width: 100%;
+    background-color: transparent;
+  }
+
+.control{
+    font-size: 2rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20%;
+    min-width: 200px;
+}
+
+
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+  .control__input {
+    display: flex;
+    align-items: center;
+    gap: .125rem;
+    border: .125rem solid;
+    border-radius: .25rem;
+    padding: .25rem;
+  }

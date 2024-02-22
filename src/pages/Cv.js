@@ -1,6 +1,8 @@
 import React from "react";
 import '../styles/Cv.css';
 import cvData from '../cv.json';
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 
 export default function Cv() {
     return (
@@ -20,6 +22,41 @@ export default function Cv() {
                         <td>{jobb.period}</td>
                     </tr>
                 ))}
+
+                <Popup
+                    trigger={<button className="button">Mer info om maskinoperatör</button>}
+                    modal
+                    nested
+                >
+                    {close => (
+                    <div className="modal">
+                        <button className="close" onClick={close}>
+                        &times;
+                        </button>
+                        {cvData.info1.map((info) => (
+                            <div><h2>Maskinoperatör</h2><p>{info.maskinoperator}</p></div>  
+                        ))}
+                    </div>
+                    )}
+                </Popup>
+
+                <Popup
+                    trigger={<button className="button">Mer info om butiksbiträde</button>}
+                    modal
+                    nested
+                >
+                    {close => (
+                    <div className="modal">
+                        <button className="close" onClick={close}>
+                        &times;
+                        </button>
+                        {cvData.info2.map((info) => (
+                            <div><h2>Butiksbiträde</h2><p>{info.butiksbitrade}</p></div>  
+                        ))}
+                    </div>
+                    )}
+                </Popup>
+
             </table>
             <h1 className="utbildning">Utbildning</h1>
             <table className="student">
@@ -35,8 +72,45 @@ export default function Cv() {
                         <td>{utb.period}</td>
                     </tr>
                 ))}
+                <Popup
+                    trigger={<button className="button">Mer info om systemutveckling</button>}
+                    modal
+                    nested
+                >
+                    {close => (
+                    <div className="modal">
+                        <button className="close" onClick={close}>
+                        &times;
+                        </button>
+                        {cvData.info3.map((info) => (
+                            <div><h2>Systemutvecklare .NET</h2><p>{info.systemutveckling}</p></div>  
+                        ))}
+                    </div>
+                    )}
+                </Popup>
+
+                <Popup
+                    trigger={<button className="button">Mer info om Teknikprogrammet</button>}
+                    modal
+                    nested
+                >
+                    {close => (
+                    <div className="modal">
+                        <button className="close" onClick={close}>
+                        &times;
+                        </button>
+                        {cvData.info4.map((info) => (
+                            <div><h2>Teknikprogrammet Informations och Medieteknik.</h2><p>{info.teknikprogrammet}</p></div>  
+                        ))}
+                    </div>
+                    )}
+                </Popup>
             </table>
             </div>
+            <div>
+                
+            </div>
         </div>
+        
     );
 }

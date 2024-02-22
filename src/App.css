@@ -47,7 +47,7 @@
 
 .site-content{
   flex: 1;
-  padding: 20px;
+  padding: 0px;
 }
 
 .site-footer{
@@ -55,4 +55,9 @@
   padding:2px 0;
   background-color: black;
   color: white;
+}
+
+.egg{
+  width: 20%;
+  
 }
