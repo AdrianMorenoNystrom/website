@@ -1,31 +1,20 @@
 .page{
-    position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
 }
 
-.btnleft,.btnright{
-    padding: 10px;
-    position: absolute;
-    cursor: pointer;
-    border: 2px solid black;
-    margin: 10px;
-    background-color: white;
-    border-radius: 10px;
-}
-
-.btnleft{
-    left: 0;
-}
-
-.btnright{
-    right: 0;
-}
 
 .table-container {
   max-height: 250px; 
   overflow-y: auto;
+  max-width: 40%;
+  text-align: center;
+  
+}
+
+.table-container h1{
+  font-size: 4vh;
 }
 
 table {
@@ -34,7 +23,7 @@ table {
 }
 
 th, td {
-  border: 1px solid #ddd;
+  border: 2px solid #ddd;
   padding: 8px;
   text-align: left;
 }
@@ -52,13 +41,10 @@ th {
   color: #00A6ED;
 }
   @media only screen and (max-width: 800px) {
-    .project {
-        margin: auto;
-        width: 350px;
-        height: 200px;
-      }
-      .page{
-      transform: translate(-50%, -10%);
+    .table-container{
+      max-width: 80%;
     }
-      
+    .page{
+      align-items: center;
+    }
 }
