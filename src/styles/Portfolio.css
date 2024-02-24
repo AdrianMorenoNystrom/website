@@ -23,29 +23,34 @@
     right: 0;
 }
 
-  .project {
-    margin: auto;
-    padding: 5px;
-    border: 3px solid black;
-    border-radius: 3px;
-    width: 500px;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .project a {
-    text-decoration: none;
-    color: black;
-    font-size: 1.5vh;
-  }
-  
-  .project a:hover {
-    text-decoration: underline;
-    color: #00a6ed;
-  }
+.table-container {
+  max-height: 250px; 
+  overflow-y: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.table-container a {
+  color: black;
+}
 
 
+.table-container a:hover {
+  color: #00A6ED;
+}
   @media only screen and (max-width: 800px) {
     .project {
         margin: auto;

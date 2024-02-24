@@ -26,24 +26,26 @@ export default function Portfolio() {
   };
 
   return (
-    <div className="page">
-      <div className="slides">
-        {posts.map((post, index) => (
-          <div key={post.id} className="slide" style={{ display: index === currentSlide ? "block" : "none" }}>
-            <div className="project">
-              <h2>{post.name}</h2>
-              <p>Skapades: {formatIsoDate(post.created_at)}</p>
-              <a href={post.html_url} target="_blank" rel="noopener noreferrer">
-                (Länk till repository)
-              </a>
-              
-            </div>
-            <button class="btnleft" onClick={prevSlide}>&#10094;</button>
-            <button class="btnright" onClick={nextSlide}>&#10095;</button>
+    <div>
+          <div className="page">
+            <div className="table-container">
+            <table>
+                <tr>
+                    <th>Namn</th>
+                    <th>Länk</th>
+                    <th>Datum</th>
+                </tr>
+                {posts.map((post) => (
+                    <tr key={post.id}>
+                  <td>{post.name}</td>
+                  <td><a href={post.html_url} target="_blank">Länk</a></td>
+                  <td>{formatIsoDate(post.created_at)}</td>
+                    </tr>
+                ))}
+            </table>
+            
           </div>
-        ))}
-
-      </div>
+        </div>
     </div>
   );
 }
