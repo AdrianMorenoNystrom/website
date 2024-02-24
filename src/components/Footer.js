@@ -5,11 +5,15 @@ export default function Footer() {
 
   const handleCopyrightClick = () => {
     setShowPicture(!showPicture);
+
+
+    document.body.style.backgroundColor = showPicture ? '' : 'lightblue';
   };
 
   const handleClickOutside = (event) => {
     if (showPicture && !event.target.closest("p")) {
       setShowPicture(false);
+      document.body.style.backgroundColor = ''; 
     }
   };
 
@@ -28,10 +32,8 @@ export default function Footer() {
         <span onClick={handleCopyrightClick}>&copy;</span>
       </p>
 
-      {/* Display the picture if showPicture is true */}
       {showPicture && (
         <div>
-          {/* Replace 'your-picture-url.jpg' with the actual URL of your picture */}
           <img className="egg" src={`${process.env.PUBLIC_URL}/assets/cat.png`} alt="Easter Egg" />
         </div>
       )}
